@@ -1,0 +1,1157 @@
+{
+  "sprites": {
+    "building_store_house": {
+      "file": "assets/sprites/building_store_house.png",
+      "w": 48,
+      "h": 48,
+      "name": "store house",
+      "pid": 3731
+    },
+    "building_barracks": {
+      "file": "assets/sprites/building_barracks.png",
+      "w": 68,
+      "h": 103,
+      "name": "barracks_0",
+      "pid": 7006
+    },
+    "building_market": {
+      "file": "assets/sprites/building_market.png",
+      "w": 42,
+      "h": 30,
+      "name": "market_0",
+      "pid": 5366
+    },
+    "building_mine": {
+      "file": "assets/sprites/building_mine.png",
+      "w": 48,
+      "h": 48,
+      "name": "mine",
+      "pid": 3728
+    },
+    "building_farm": {
+      "file": "assets/sprites/building_farm.png",
+      "w": 57,
+      "h": 48,
+      "name": "farm",
+      "pid": 3699
+    },
+    "building_smith": {
+      "file": "assets/sprites/building_smith.png",
+      "w": 48,
+      "h": 48,
+      "name": "forge",
+      "pid": 3691
+    },
+    "building_smith_shadow": {
+      "file": "assets/sprites/building_smith_shadow.png",
+      "w": 48,
+      "h": 48,
+      "name": "forge_shadow",
+      "pid": 3722
+    },
+    "building_smith_sharpening": {
+      "file": "assets/sprites/building_smith_sharpening.png",
+      "w": 32,
+      "h": 16,
+      "name": "Sharpening Station",
+      "pid": 3718
+    },
+    "building_armourer": {
+      "file": "assets/sprites/building_armourer.png",
+      "w": 48,
+      "h": 48,
+      "name": "armourer",
+      "pid": 3744
+    },
+    "building_armourer_workbench": {
+      "file": "assets/sprites/building_armourer_workbench.png",
+      "w": 32,
+      "h": 32,
+      "name": "workbench",
+      "pid": 3732
+    },
+    "building_armourer_loom": {
+      "file": "assets/sprites/building_armourer_loom.png",
+      "w": 19,
+      "h": 17,
+      "name": "loom",
+      "pid": 3693
+    },
+    "building_wizard_tower": {
+      "file": "assets/sprites/building_wizard_tower.png",
+      "w": 30,
+      "h": 86,
+      "name": "wizard-tower",
+      "pid": 3700
+    },
+    "res_metal": {
+      "file": "assets/sprites/res_metal.png",
+      "w": 13,
+      "h": 12,
+      "name": "basics weapons_53",
+      "pid": 6184
+    },
+    "res_carrot": {
+      "file": "assets/sprites/res_carrot.png",
+      "w": 16,
+      "h": 16,
+      "name": "Spring Crops_34",
+      "pid": 3209
+    },
+    "res_carrot_crop": {
+      "file": "assets/sprites/res_carrot_crop.png",
+      "w": 16,
+      "h": 16,
+      "name": "Spring Crops_33",
+      "pid": 3224
+    },
+    "res_golden_carrot": {
+      "file": "assets/sprites/res_golden_carrot.png",
+      "w": 16,
+      "h": 16,
+      "name": "golden-carrot",
+      "pid": 3735
+    },
+    "res_amethyst": {
+      "file": "assets/sprites/res_amethyst.png",
+      "w": 16,
+      "h": 16,
+      "name": "3_2",
+      "pid": 5245
+    },
+    "res_sapphire": {
+      "file": "assets/sprites/res_sapphire.png",
+      "w": 16,
+      "h": 16,
+      "name": "4_2",
+      "pid": 4526
+    },
+    "res_ruby": {
+      "file": "assets/sprites/res_ruby.png",
+      "w": 16,
+      "h": 16,
+      "name": "5_2",
+      "pid": 1797
+    },
+    "icon_coin": {
+      "file": "assets/sprites/icon_coin.png",
+      "w": 8,
+      "h": 8,
+      "name": "coin_0",
+      "pid": 3368
+    },
+    "weapon_copper": {
+      "file": "assets/sprites/weapon_copper.png",
+      "w": 15,
+      "h": 15,
+      "name": "basics weapons_31",
+      "pid": 6037
+    },
+    "weapon_iron": {
+      "file": "assets/sprites/weapon_iron.png",
+      "w": 14,
+      "h": 14,
+      "name": "basics weapons_56",
+      "pid": 2289
+    },
+    "weapon_gold": {
+      "file": "assets/sprites/weapon_gold.png",
+      "w": 16,
+      "h": 16,
+      "name": "basics weapons_83",
+      "pid": 7108
+    },
+    "weapon_platinum": {
+      "file": "assets/sprites/weapon_platinum.png",
+      "w": 16,
+      "h": 16,
+      "name": "6_6",
+      "pid": 6229
+    },
+    "weapon_cobalt": {
+      "file": "assets/sprites/weapon_cobalt.png",
+      "w": 16,
+      "h": 16,
+      "name": "8_6",
+      "pid": 977
+    },
+    "weapon_mythril": {
+      "file": "assets/sprites/weapon_mythril.png",
+      "w": 16,
+      "h": 16,
+      "name": "9_6",
+      "pid": 4712
+    },
+    "armour_copper": {
+      "file": "assets/sprites/armour_copper.png",
+      "w": 16,
+      "h": 16,
+      "name": "3_25",
+      "pid": 2211
+    },
+    "armour_iron": {
+      "file": "assets/sprites/armour_iron.png",
+      "w": 16,
+      "h": 16,
+      "name": "4_25",
+      "pid": 3996
+    },
+    "armour_gold": {
+      "file": "assets/sprites/armour_gold.png",
+      "w": 16,
+      "h": 16,
+      "name": "5_32",
+      "pid": 2224
+    },
+    "armour_cobalt": {
+      "file": "assets/sprites/armour_cobalt.png",
+      "w": 16,
+      "h": 16,
+      "name": "8_23",
+      "pid": 4766
+    },
+    "armour_obsidian": {
+      "file": "assets/sprites/armour_obsidian.png",
+      "w": 15,
+      "h": 15,
+      "name": "11_29",
+      "pid": 5294
+    },
+    "armour_dragonscale": {
+      "file": "assets/sprites/armour_dragonscale.png",
+      "w": 16,
+      "h": 16,
+      "name": "7_25",
+      "pid": 3161
+    },
+    "enchant_lifesteal": {
+      "file": "assets/sprites/enchant_lifesteal.png",
+      "w": 24,
+      "h": 24,
+      "name": "Frame_39",
+      "pid": 5274
+    },
+    "enchant_burning_strikes": {
+      "file": "assets/sprites/enchant_burning_strikes.png",
+      "w": 24,
+      "h": 24,
+      "name": "Frame_1",
+      "pid": 6772
+    },
+    "enchant_thorns": {
+      "file": "assets/sprites/enchant_thorns.png",
+      "w": 24,
+      "h": 24,
+      "name": "Frame_55",
+      "pid": 7210
+    },
+    "enchant_rend": {
+      "file": "assets/sprites/enchant_rend.png",
+      "w": 24,
+      "h": 24,
+      "name": "Frame_54",
+      "pid": 6610
+    },
+    "minion_icon_goblin": {
+      "file": "assets/sprites/minion_icon_goblin.png",
+      "w": 18,
+      "h": 16,
+      "name": "goblin-icon_0",
+      "pid": 150
+    },
+    "minion_icon_troll": {
+      "file": "assets/sprites/minion_icon_troll.png",
+      "w": 11,
+      "h": 11,
+      "name": "troll-icon_0",
+      "pid": 7112
+    },
+    "minion_icon_lightning_mage": {
+      "file": "assets/sprites/minion_icon_lightning_mage.png",
+      "w": 13,
+      "h": 14,
+      "name": "lightning-mage-icon",
+      "pid": 3737
+    },
+    "minion_icon_sapling": {
+      "file": "assets/sprites/minion_icon_sapling.png",
+      "w": 10,
+      "h": 11,
+      "name": "sapling-icon",
+      "pid": 3752
+    },
+    "minion_icon_cyclops": {
+      "file": "assets/sprites/minion_icon_cyclops.png",
+      "w": 13,
+      "h": 13,
+      "name": "cyclops-icon_0",
+      "pid": 6438
+    },
+    "minion_icon_demon": {
+      "file": "assets/sprites/minion_icon_demon.png",
+      "w": 17,
+      "h": 17,
+      "name": "demon-icon",
+      "pid": 3741
+    },
+    "minion_icon_giant": {
+      "file": "assets/sprites/minion_icon_giant.png",
+      "w": 32,
+      "h": 32,
+      "name": "GiantIdle_y0_x0",
+      "pid": 2419
+    },
+    "minion_icon_priest": {
+      "file": "assets/sprites/minion_icon_priest.png",
+      "w": 13,
+      "h": 15,
+      "name": "priest-icon",
+      "pid": 3716
+    },
+    "decor_gladiolus": {
+      "file": "assets/sprites/decor_gladiolus.png",
+      "w": 14,
+      "h": 14,
+      "name": "plants_13",
+      "pid": 2191
+    },
+    "decor_chrysanthemum": {
+      "file": "assets/sprites/decor_chrysanthemum.png",
+      "w": 19,
+      "h": 19,
+      "name": "plants_8",
+      "pid": 1958
+    },
+    "decor_pillar": {
+      "file": "assets/sprites/decor_pillar.png",
+      "w": 15,
+      "h": 30,
+      "name": "Stone structures_2",
+      "pid": 6611
+    },
+    "decor_well": {
+      "file": "assets/sprites/decor_well.png",
+      "w": 32,
+      "h": 48,
+      "name": "Well _0",
+      "pid": 1433
+    },
+    "decor_campfire": {
+      "file": "assets/sprites/decor_campfire.png",
+      "w": 16,
+      "h": 32,
+      "name": "bonfire_0",
+      "pid": 6383
+    },
+    "decor_fountain": {
+      "file": "assets/sprites/decor_fountain.png",
+      "w": 46,
+      "h": 50,
+      "name": "Water fountain_0",
+      "pid": 5421
+    },
+    "ui_icon_mine": {
+      "file": "assets/sprites/ui_icon_mine.png",
+      "w": 17,
+      "h": 17,
+      "name": "MineIcon",
+      "pid": 3692
+    },
+    "ui_icon_farm": {
+      "file": "assets/sprites/ui_icon_farm.png",
+      "w": 16,
+      "h": 16,
+      "name": "hoe-sillouette",
+      "pid": 3738
+    },
+    "ui_icon_smith": {
+      "file": "assets/sprites/ui_icon_smith.png",
+      "w": 16,
+      "h": 16,
+      "name": "anvil",
+      "pid": 3734
+    },
+    "ui_icon_armour": {
+      "file": "assets/sprites/ui_icon_armour.png",
+      "w": 18,
+      "h": 16,
+      "name": "armour-silhouette-white",
+      "pid": 3750
+    },
+    "ui_icon_enchant": {
+      "file": "assets/sprites/ui_icon_enchant.png",
+      "w": 16,
+      "h": 16,
+      "name": "allow-enchanted-sillouette-white",
+      "pid": 3714
+    },
+    "ui_icon_building": {
+      "file": "assets/sprites/ui_icon_building.png",
+      "w": 16,
+      "h": 16,
+      "name": "building-silhouette",
+      "pid": 3742
+    },
+    "ui_icon_market": {
+      "file": "assets/sprites/ui_icon_market.png",
+      "w": 17,
+      "h": 18,
+      "name": "market-sillouette_0",
+      "pid": 1762
+    },
+    "ui_icon_worker": {
+      "file": "assets/sprites/ui_icon_worker.png",
+      "w": 9,
+      "h": 8,
+      "name": "worker-sillouette",
+      "pid": 3720
+    },
+    "ui_icon_resource": {
+      "file": "assets/sprites/ui_icon_resource.png",
+      "w": 16,
+      "h": 16,
+      "name": "resource-sillouette-white",
+      "pid": 3721
+    },
+    "ui_icon_weapon": {
+      "file": "assets/sprites/ui_icon_weapon.png",
+      "w": 16,
+      "h": 16,
+      "name": "sword-silhouette-white",
+      "pid": 3713
+    },
+    "ui_icon_move": {
+      "file": "assets/sprites/ui_icon_move.png",
+      "w": 19,
+      "h": 19,
+      "name": "move-icon",
+      "pid": 3745
+    },
+    "ui_icon_upgrade": {
+      "file": "assets/sprites/ui_icon_upgrade.png",
+      "w": 16,
+      "h": 16,
+      "name": "upgrade-icon",
+      "pid": 3740
+    },
+    "ui_icon_question": {
+      "file": "assets/sprites/ui_icon_question.png",
+      "w": 16,
+      "h": 16,
+      "name": "question-mark-icon",
+      "pid": 3715
+    },
+    "ui_icon_cogwheel": {
+      "file": "assets/sprites/ui_icon_cogwheel.png",
+      "w": 18,
+      "h": 18,
+      "name": "cogwheel_0",
+      "pid": 119
+    },
+    "ui_icon_bin": {
+      "file": "assets/sprites/ui_icon_bin.png",
+      "w": 16,
+      "h": 16,
+      "name": "bin",
+      "pid": 3703
+    },
+    "ui_icon_refresh": {
+      "file": "assets/sprites/ui_icon_refresh.png",
+      "w": 18,
+      "h": 18,
+      "name": "refresh",
+      "pid": 3708
+    },
+    "ui_icon_red_x": {
+      "file": "assets/sprites/ui_icon_red_x.png",
+      "w": 16,
+      "h": 16,
+      "name": "red x_0",
+      "pid": 611
+    },
+    "ui_icon_swords": {
+      "file": "assets/sprites/ui_icon_swords.png",
+      "w": 17,
+      "h": 16,
+      "name": "cross-swords-silhouette-outline_0",
+      "pid": 5201
+    },
+    "ui_icon_clock": {
+      "file": "assets/sprites/ui_icon_clock.png",
+      "w": 12,
+      "h": 12,
+      "name": "clock icon",
+      "pid": 3724
+    },
+    "ui_icon_unlock": {
+      "file": "assets/sprites/ui_icon_unlock.png",
+      "w": 16,
+      "h": 16,
+      "name": "padlock-unlock",
+      "pid": 3751
+    },
+    "ui_icon_idle": {
+      "file": "assets/sprites/ui_icon_idle.png",
+      "w": 16,
+      "h": 16,
+      "name": "idle-silhouette",
+      "pid": 3707
+    },
+    "ui_icon_wrench": {
+      "file": "assets/sprites/ui_icon_wrench.png",
+      "w": 17,
+      "h": 17,
+      "name": "wrench_white",
+      "pid": 3701
+    },
+    "ui_panel_9slice": {
+      "file": "assets/sprites/ui_panel_9slice.png",
+      "w": 24,
+      "h": 24,
+      "name": "InnerPanel9Slice",
+      "pid": 3739
+    },
+    "ui_inventory_9slice": {
+      "file": "assets/sprites/ui_inventory_9slice.png",
+      "w": 34,
+      "h": 34,
+      "name": "Inventory_9Slices",
+      "pid": 3725
+    },
+    "ui_button": {
+      "file": "assets/sprites/ui_button.png",
+      "w": 16,
+      "h": 16,
+      "name": "button_0",
+      "pid": 5348
+    },
+    "ui_selector_box": {
+      "file": "assets/sprites/ui_selector_box.png",
+      "w": 16,
+      "h": 16,
+      "name": "selectorbox",
+      "pid": 3702
+    },
+    "ui_place_guide": {
+      "file": "assets/sprites/ui_place_guide.png",
+      "w": 96,
+      "h": 96,
+      "name": "placeGuide_0",
+      "pid": 6581
+    },
+    "ui_shadow_small": {
+      "file": "assets/sprites/ui_shadow_small.png",
+      "w": 16,
+      "h": 16,
+      "name": "shadow-small_0",
+      "pid": 2230
+    },
+    "ui_shadow_large": {
+      "file": "assets/sprites/ui_shadow_large.png",
+      "w": 30,
+      "h": 6,
+      "name": "shadow_0",
+      "pid": 1460
+    },
+    "ui_healthbar_border": {
+      "file": "assets/sprites/ui_healthbar_border.png",
+      "w": 16,
+      "h": 16,
+      "name": "healthbar-border",
+      "pid": 3729
+    },
+    "ui_healthbar_fill": {
+      "file": "assets/sprites/ui_healthbar_fill.png",
+      "w": 1,
+      "h": 1,
+      "name": "healthbar-fill",
+      "pid": 3705
+    },
+    "ui_bubble": {
+      "file": "assets/sprites/ui_bubble.png",
+      "w": 14,
+      "h": 17,
+      "name": "_Bubble_0",
+      "pid": 5126
+    },
+    "emote_entertained": {
+      "file": "assets/sprites/emote_entertained.png",
+      "w": 16,
+      "h": 16,
+      "name": "_Emotions_52",
+      "pid": 3392
+    },
+    "emote_bored": {
+      "file": "assets/sprites/emote_bored.png",
+      "w": 16,
+      "h": 16,
+      "name": "_Emotions_41",
+      "pid": 4105
+    },
+    "emote_commanded": {
+      "file": "assets/sprites/emote_commanded.png",
+      "w": 16,
+      "h": 16,
+      "name": "_Emotions_0",
+      "pid": 4972
+    },
+    "emote_battle": {
+      "file": "assets/sprites/emote_battle.png",
+      "w": 16,
+      "h": 16,
+      "name": "_Emotions_2",
+      "pid": 2643
+    },
+    "emote_low_hp": {
+      "file": "assets/sprites/emote_low_hp.png",
+      "w": 16,
+      "h": 16,
+      "name": "_Emotions_48",
+      "pid": 3105
+    },
+    "proj_arrow": {
+      "file": "assets/sprites/proj_arrow.png",
+      "w": 8,
+      "h": 8,
+      "name": "arrow",
+      "pid": 3733
+    },
+    "proj_fireball": {
+      "file": "assets/sprites/proj_fireball.png",
+      "w": 11,
+      "h": 12,
+      "name": "Fireball_Projectile_0",
+      "pid": 5271
+    },
+    "vfx_beam": {
+      "file": "assets/sprites/vfx_beam.png",
+      "w": 16,
+      "h": 16,
+      "name": "beam_0",
+      "pid": 5785
+    },
+    "tile_grass_base": {
+      "file": "assets/sprites/tile_grass_base.png",
+      "w": 8,
+      "h": 8,
+      "name": "Tileset_445",
+      "pid": 3291
+    },
+    "tile_grass_0": {
+      "file": "assets/sprites/tile_grass_0.png",
+      "w": 8,
+      "h": 8,
+      "name": "Minifantasy_ForgottenPlainsTiles_130",
+      "pid": 4091
+    },
+    "tile_grass_1": {
+      "file": "assets/sprites/tile_grass_1.png",
+      "w": 8,
+      "h": 8,
+      "name": "Minifantasy_ForgottenPlainsTiles_0",
+      "pid": 428
+    },
+    "tile_grass_2": {
+      "file": "assets/sprites/tile_grass_2.png",
+      "w": 8,
+      "h": 8,
+      "name": "Minifantasy_ForgottenPlainsTiles_1",
+      "pid": 7090
+    },
+    "tile_grass_3": {
+      "file": "assets/sprites/tile_grass_3.png",
+      "w": 8,
+      "h": 8,
+      "name": "Minifantasy_ForgottenPlainsTiles_2",
+      "pid": 6511
+    },
+    "tile_grass_4": {
+      "file": "assets/sprites/tile_grass_4.png",
+      "w": 8,
+      "h": 8,
+      "name": "Minifantasy_ForgottenPlainsTiles_3",
+      "pid": 7383
+    },
+    "tile_grass_5": {
+      "file": "assets/sprites/tile_grass_5.png",
+      "w": 8,
+      "h": 8,
+      "name": "Minifantasy_ForgottenPlainsTiles_165",
+      "pid": 4456
+    },
+    "tile_grass_6": {
+      "file": "assets/sprites/tile_grass_6.png",
+      "w": 8,
+      "h": 8,
+      "name": "Minifantasy_ForgottenPlainsTiles_99",
+      "pid": 3522
+    },
+    "tile_grass_flower1": {
+      "file": "assets/sprites/tile_grass_flower1.png",
+      "w": 8,
+      "h": 8,
+      "name": "Minifantasy_ForgottenPlainsTiles_17",
+      "pid": 2697
+    },
+    "tile_grass_flower2": {
+      "file": "assets/sprites/tile_grass_flower2.png",
+      "w": 8,
+      "h": 8,
+      "name": "Minifantasy_ForgottenPlainsTiles_18",
+      "pid": 878
+    },
+    "tile_grass_pebble": {
+      "file": "assets/sprites/tile_grass_pebble.png",
+      "w": 8,
+      "h": 8,
+      "name": "Minifantasy_ForgottenPlainsTiles_42",
+      "pid": 2992
+    },
+    "tile_tree_0": {
+      "file": "assets/sprites/tile_tree_0.png",
+      "w": 32,
+      "h": 32,
+      "name": "forest-palette01-day_37",
+      "pid": 3922
+    },
+    "tile_tree_1": {
+      "file": "assets/sprites/tile_tree_1.png",
+      "w": 32,
+      "h": 32,
+      "name": "forest-palette01-day_3",
+      "pid": 4438
+    },
+    "tile_tree_2": {
+      "file": "assets/sprites/tile_tree_2.png",
+      "w": 32,
+      "h": 32,
+      "name": "forest-palette01-day_16",
+      "pid": 2921
+    },
+    "tile_tree_3": {
+      "file": "assets/sprites/tile_tree_3.png",
+      "w": 32,
+      "h": 32,
+      "name": "forest-palette01-day_15",
+      "pid": 3174
+    },
+    "tile_tree_4": {
+      "file": "assets/sprites/tile_tree_4.png",
+      "w": 32,
+      "h": 32,
+      "name": "forest-palette01-day_33",
+      "pid": 3215
+    },
+    "tile_tree_5": {
+      "file": "assets/sprites/tile_tree_5.png",
+      "w": 32,
+      "h": 32,
+      "name": "forest-palette01-day_34",
+      "pid": 3163
+    },
+    "tile_tree_6": {
+      "file": "assets/sprites/tile_tree_6.png",
+      "w": 32,
+      "h": 32,
+      "name": "forest-palette01-day_27",
+      "pid": 3551
+    },
+    "tile_tree_7": {
+      "file": "assets/sprites/tile_tree_7.png",
+      "w": 32,
+      "h": 32,
+      "name": "forest-palette01-day_28",
+      "pid": 3936
+    },
+    "tile_tree_canopy": {
+      "file": "assets/sprites/tile_tree_canopy.png",
+      "w": 32,
+      "h": 32,
+      "name": "forest-palette01-day_26",
+      "pid": 4481
+    }
+  },
+  "sheets": {
+    "goblin_idle": {
+      "file": "assets/sprites/sheets/goblin_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "goblin_walk": {
+      "file": "assets/sprites/sheets/goblin_walk.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "goblin_attack": {
+      "file": "assets/sprites/sheets/goblin_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "goblin_die": {
+      "file": "assets/sprites/sheets/goblin_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 12
+    },
+    "troll_idle": {
+      "file": "assets/sprites/sheets/troll_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "troll_walk": {
+      "file": "assets/sprites/sheets/troll_walk.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6
+    },
+    "troll_attack": {
+      "file": "assets/sprites/sheets/troll_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4
+    },
+    "troll_die": {
+      "file": "assets/sprites/sheets/troll_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 10
+    },
+    "lightning_mage_idle": {
+      "file": "assets/sprites/sheets/lightning_mage_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "lightning_mage_walk": {
+      "file": "assets/sprites/sheets/lightning_mage_walk.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4
+    },
+    "lightning_mage_attack": {
+      "file": "assets/sprites/sheets/lightning_mage_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "lightning_mage_die": {
+      "file": "assets/sprites/sheets/lightning_mage_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 10
+    },
+    "sapling_idle": {
+      "file": "assets/sprites/sheets/sapling_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "sapling_walk": {
+      "file": "assets/sprites/sheets/sapling_walk.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "sapling_attack": {
+      "file": "assets/sprites/sheets/sapling_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "sapling_die": {
+      "file": "assets/sprites/sheets/sapling_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "cyclops_idle": {
+      "file": "assets/sprites/sheets/cyclops_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "cyclops_walk": {
+      "file": "assets/sprites/sheets/cyclops_walk.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6
+    },
+    "cyclops_attack": {
+      "file": "assets/sprites/sheets/cyclops_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "cyclops_die": {
+      "file": "assets/sprites/sheets/cyclops_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 10
+    },
+    "demon_idle": {
+      "file": "assets/sprites/sheets/demon_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "demon_walk": {
+      "file": "assets/sprites/sheets/demon_walk.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6
+    },
+    "demon_attack": {
+      "file": "assets/sprites/sheets/demon_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6
+    },
+    "demon_die": {
+      "file": "assets/sprites/sheets/demon_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 10
+    },
+    "giant_idle": {
+      "file": "assets/sprites/sheets/giant_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "giant_walk": {
+      "file": "assets/sprites/sheets/giant_walk.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "giant_attack": {
+      "file": "assets/sprites/sheets/giant_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "giant_die": {
+      "file": "assets/sprites/sheets/giant_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 12
+    },
+    "giant_shockwave": {
+      "file": "assets/sprites/sheets/giant_shockwave.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "fighter_idle": {
+      "file": "assets/sprites/sheets/fighter_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "fighter_walk": {
+      "file": "assets/sprites/sheets/fighter_walk.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4
+    },
+    "fighter_attack": {
+      "file": "assets/sprites/sheets/fighter_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4
+    },
+    "fighter_die": {
+      "file": "assets/sprites/sheets/fighter_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 10
+    },
+    "ranger_idle": {
+      "file": "assets/sprites/sheets/ranger_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "ranger_walk": {
+      "file": "assets/sprites/sheets/ranger_walk.png",
+      "frameWidth": 10,
+      "frameHeight": 11,
+      "frames": 8
+    },
+    "ranger_attack": {
+      "file": "assets/sprites/sheets/ranger_attack.png",
+      "frameWidth": 23,
+      "frameHeight": 10,
+      "frames": 10
+    },
+    "ranger_die": {
+      "file": "assets/sprites/sheets/ranger_die.png",
+      "frameWidth": 18,
+      "frameHeight": 15,
+      "frames": 10
+    },
+    "blue_mage_idle": {
+      "file": "assets/sprites/sheets/blue_mage_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "blue_mage_walk": {
+      "file": "assets/sprites/sheets/blue_mage_walk.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4
+    },
+    "blue_mage_attack": {
+      "file": "assets/sprites/sheets/blue_mage_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "blue_mage_die": {
+      "file": "assets/sprites/sheets/blue_mage_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 10
+    },
+    "priest_idle": {
+      "file": "assets/sprites/sheets/priest_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "priest_walk": {
+      "file": "assets/sprites/sheets/priest_walk.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4
+    },
+    "priest_attack": {
+      "file": "assets/sprites/sheets/priest_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 8
+    },
+    "priest_die": {
+      "file": "assets/sprites/sheets/priest_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 10
+    },
+    "prop_furnace": {
+      "file": "assets/sprites/sheets/prop_furnace.png",
+      "frameWidth": 18,
+      "frameHeight": 28,
+      "frames": 10
+    },
+    "prop_anvil": {
+      "file": "assets/sprites/sheets/prop_anvil.png",
+      "frameWidth": 15,
+      "frameHeight": 15,
+      "frames": 8
+    },
+    "prop_bonfire": {
+      "file": "assets/sprites/sheets/prop_bonfire.png",
+      "frameWidth": 16,
+      "frameHeight": 32,
+      "frames": 6
+    },
+    "prop_fountain": {
+      "file": "assets/sprites/sheets/prop_fountain.png",
+      "frameWidth": 46,
+      "frameHeight": 50,
+      "frames": 4
+    },
+    "vfx_hitspark": {
+      "file": "assets/sprites/sheets/vfx_hitspark.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 5
+    },
+    "vfx_lightning": {
+      "file": "assets/sprites/sheets/vfx_lightning.png",
+      "frameWidth": 16,
+      "frameHeight": 64,
+      "frames": 4
+    },
+    "vfx_meteor": {
+      "file": "assets/sprites/sheets/vfx_meteor.png",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6
+    },
+    "vfx_meteor_exp": {
+      "file": "assets/sprites/sheets/vfx_meteor_exp.png",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 5
+    },
+    "vfx_burst_fire": {
+      "file": "assets/sprites/sheets/vfx_burst_fire.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 10
+    },
+    "vfx_small_flame": {
+      "file": "assets/sprites/sheets/vfx_small_flame.png",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 6
+    },
+    "vfx_smoke_place": {
+      "file": "assets/sprites/sheets/vfx_smoke_place.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 10
+    },
+    "vfx_smoke_sell": {
+      "file": "assets/sprites/sheets/vfx_smoke_sell.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 10
+    }
+  },
+  "audio": {
+    "090_Pause_02": "assets/audio/090_pause_02.m4a",
+    "heavy-thud": "assets/audio/heavy-thud.m4a",
+    "099_Unpause_05": "assets/audio/099_unpause_05.m4a",
+    "Heal": "assets/audio/heal.m4a",
+    "fire-explosion": "assets/audio/fire-explosion.m4a",
+    "light-thud": "assets/audio/light-thud.m4a",
+    "victory loop": "assets/audio/victory_loop.m4a",
+    "item-generated": "assets/audio/item-generated.m4a",
+    "denied": "assets/audio/denied.m4a",
+    "09 - Battle 2": "assets/audio/09_-_battle_2.m4a",
+    "pickup": "assets/audio/pickup.m4a",
+    "main music intro": "assets/audio/main_music_intro.m4a",
+    "main music loop": "assets/audio/main_music_loop.m4a",
+    "001_Hover_01": "assets/audio/001_hover_01.m4a",
+    "ChangeDrop1": "assets/audio/changedrop1.m4a",
+    "19 - Where The Winds Roam": "assets/audio/19_-_where_the_winds_roam.m4a",
+    "enemyDeath": "assets/audio/enemydeath.m4a",
+    "Hit_Metal_on_flesh": "assets/audio/hit_metal_on_flesh.m4a",
+    "launch": "assets/audio/launch.m4a",
+    "Bow_Charge_2": "assets/audio/bow_charge_2.m4a",
+    "battle loop": "assets/audio/battle_loop.m4a",
+    "slash": "assets/audio/slash.m4a",
+    "quickShock": "assets/audio/quickshock.m4a",
+    "Bow_Release": "assets/audio/bow_release.m4a",
+    "01_Smith_Anvil_Hit_01": "assets/audio/01_smith_anvil_hit_01.m4a",
+    "01_Fire_Cast": "assets/audio/01_fire_cast.m4a",
+    "big_win_end": "assets/audio/big_win_end.m4a",
+    "HealBolt": "assets/audio/healbolt.m4a",
+    "bassy-thud": "assets/audio/bassy-thud.m4a",
+    "pop": "assets/audio/pop.m4a",
+    "shockwave-on-grass": "assets/audio/shockwave-on-grass.m4a",
+    "Equip": "assets/audio/equip.m4a",
+    "buy": "assets/audio/buy.m4a",
+    "woosh": "assets/audio/woosh.m4a",
+    "rare-find": "assets/audio/rare-find.m4a",
+    "pop_down": "assets/audio/pop_down.m4a",
+    "battle intro": "assets/audio/battle_intro.m4a"
+  }
+}

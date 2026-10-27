@@ -1,0 +1,21 @@
+; Engine configuration file.
+; Companion Godot 4 project configuration referencing the extracted Minifantasy assets.
+
+config_version=5
+
+[application]
+
+config/name="Minion Colony"
+config/description="Fantasy Colony Builder & Tactical Auto-Battler"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://assets/sprites/icon_goblin.png"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

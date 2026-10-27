@@ -1,0 +1,13 @@
+{
+  "name": "minion-colony-argon",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Minion Colony — Fantasy Colony Builder & Tactical Auto-Battler (1:1 Pixel Art & Gameplay Recreation + Endgame Extrapolation)",
+  "scripts": {
+    "start": "node server.mjs",
+    "extract-assets": "python3 scripts/extract_unity_assets.py",
+    "test": "node --test tests/sim.test.mjs",
+    "qa": "node qa/verify-game.mjs"
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minion Colony</title>
+  <link rel="icon" type="image/png" href="assets/sprites/minion_icon_goblin.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="game-canvas"></canvas>
+
+  <!-- Main Menu & Save Slot Select Overlay -->
+  <div id="main-menu-overlay" class="overlay-screen"></div>
+
+  <!-- Colony View UI Layer -->
+  <div id="colony-ui-layer" class="ui-layer hidden">
+    <!-- Top-Left Resource & Morale HUD -->
+    <div id="top-left-hud" class="pixel-panel hud-box">
+      <div class="hud-stat-row">
+        <img src="assets/sprites/icon_coin.png" class="inline-icon" alt="Gold" />
+        <span class="hud-label">Gold:</span>
+        <span id="hud-gold-val" class="hud-val gold-text">220</span>
+      </div>
+      <div class="hud-stat-row">
+        <img src="assets/sprites/minion_icon_goblin.png" class="inline-icon" alt="Minions" />
+        <span class="hud-label">Minions:</span>
+        <span id="hud-minions-val" class="hud-val">0</span>
+        <button id="btn-task-scaling" class="pixel-btn xs" title="Minion Stats &amp; Task Scaling Guide">?</button>
+      </div>
+      <div class="hud-stat-row" title="Morale boosts colony work speed (Charisma + Decorations)">
+        <img src="assets/sprites/emote_entertained.png" class="inline-icon" alt="Morale" />
+        <span class="hud-label">Morale:</span>
+        <span id="hud-morale-val" class="hud-val">0</span>
+        <span id="hud-morale-eff" class="hud-eff-pill">100% Eff</span>
+      </div>
+      <div class="hud-divider"></div>
+      <div class="hud-section-title">Store House Resources</div>
+      <div id="hud-resources-list" class="hud-resources-list"></div>
+    </div>
+
+    <!-- 7-Step Tutorial Banner -->
+    <div id="tutorial-banner" class="pixel-panel tutorial-banner hidden"></div>
+
+    <!-- Top-Right Settings / Save Button -->
+    <div id="top-right-controls" class="top-right-controls">
+      <button id="btn-open-settings" class="pixel-btn" title="Settings &amp; Save Game (Esc)">
+        <img src="assets/sprites/ui_icon_cogwheel.png" class="inline-icon" alt="" /> Settings / Save
+      </button>
+    </div>
+
+    <!-- Right Sidebar (Minions, Buildings, Decoration & QoL Toolbar) -->
+    <aside id="right-sidebar" class="pixel-panel right-sidebar"></aside>
+
+    <!-- Rich Hover Tooltip for Sidebar Cards -->
+    <div id="rich-tooltip" class="pixel-panel rich-tooltip hidden"></div>
+
+    <!-- Box-Selection Command Popup -->
+    <div id="command-popup" class="pixel-panel command-popup hidden"></div>
+
+    <!-- 3-Column Building Inspector Modal -->
+    <div id="building-inspector-modal" class="pixel-panel building-inspector hidden"></div>
+
+    <!-- Bottom Mission Drawer Button -->
+    <div class="bottom-mission-bar">
+      <button id="mission-drawer-btn" class="pixel-btn primary mission-drawer-btn">
+        <img src="assets/sprites/ui_icon_swords.png" class="inline-icon" alt="" /> Missions
+      </button>
+    </div>
+  </div>
+
+  <!-- Formation Editor Overlay -->
+  <div id="formation-overlay" class="ui-layer hidden"></div>
+
+  <!-- Auto-Battler Live HUD -->
+  <div id="battle-hud" class="ui-layer hidden"></div>
+
+  <!-- Modals -->
+  <div id="mission-modal" class="modal-backdrop hidden"></div>
+  <div id="filter-modal" class="modal-backdrop hidden"></div>
+  <div id="task-scaling-modal" class="modal-backdrop hidden"></div>
+  <div id="battle-summary-modal" class="modal-backdrop hidden"></div>
+  <div id="settings-modal" class="modal-backdrop hidden"></div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
